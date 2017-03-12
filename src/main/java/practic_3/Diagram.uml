@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="619.1543513957307" y="528.5">practic_3.model.Hall</node>
+    <node x="18.154351395730714" y="517.0">practic_3.model.Admin</node>
+    <node x="269.4043513957307" y="1341.0">practic_3.controller.MenuControlImpl</node>
+    <node x="36.5" y="997.5">practic_3.controller.AdminController</node>
+    <node x="377.9043513957307" y="1787.0">practic_3.AppCinema</node>
+    <node x="257.57327586206895" y="953.0">practic_3.controller.UserControlImpl</node>
+    <node x="32.404351395730714" y="270.0">practic_3.model.Human</node>
+    <node x="485.07327586206895" y="695.0">practic_3.model.Cinema</node>
+    <node x="316.6543513957307" y="326.0">practic_3.model.Ticket</node>
+    <node x="2.4482758620689538" y="1165.0">practic_3.controller.AdminControlImpl</node>
+    <node x="702.573275862069" y="1176.5">practic_3.view.AdminView</node>
+    <node x="591.2678571428571" y="0.0">practic_3.model.Film</node>
+    <node x="225.6543513957307" y="483.0">practic_3.model.User</node>
+    <node x="636.7678571428571" y="169.0">practic_3.model.Session</node>
+    <node x="184.75" y="1143.0">practic_3.view.UserView</node>
+    <node x="303.4043513957307" y="1597.0">practic_3.view.MenuView</node>
+    <node x="266.07327586206895" y="773.5">practic_3.controller.UserController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="practic_3.controller.MenuControlImpl" target="practic_3.view.AdminView">
+      <point x="164.44444444444446" y="-103.0" />
+      <point x="618.8487958401752" y="1321.0" />
+      <point x="854.073275862069" y="1321.0" />
+      <point x="50.5" y="25.5" />
+    </edge>
+    <edge source="practic_3.controller.AdminControlImpl" target="practic_3.model.Admin">
+      <point x="-39.75" y="-37.0" />
+      <point x="42.198275862068954" y="1123.0" />
+      <point x="26.0" y="1123.0" />
+      <point x="26.0" y="675.0" />
+      <point x="44.154351395730714" y="675.0" />
+      <point x="-52.0" y="37.0" />
+    </edge>
+    <edge source="practic_3.controller.MenuControlImpl" target="practic_3.view.UserView">
+      <point x="-41.111111111111086" y="-103.0" />
+      <point x="413.2932402846196" y="1291.0" />
+      <point x="251.0" y="1291.0" />
+      <point x="-66.25" y="59.0" />
+    </edge>
+    <edge source="practic_3.model.Cinema" target="practic_3.model.Admin">
+      <point x="-118.28571428571422" y="-104.0" />
+      <point x="504.78756157635473" y="665.0" />
+      <point x="96.15435139573071" y="665.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="practic_3.controller.MenuControlImpl" target="practic_3.controller.UserControlImpl">
+      <point x="41.111111111111086" y="-103.0" />
+      <point x="495.5154625068418" y="1321.0" />
+      <point x="531.1543513957307" y="1321.0" />
+      <point x="531.1543513957307" y="1123.0" />
+      <point x="446.57327586206895" y="1123.0" />
+      <point x="81.0" y="70.0" />
+    </edge>
+    <edge source="practic_3.controller.MenuControlImpl" target="practic_3.controller.AdminControlImpl">
+      <point x="-164.44444444444446" y="-103.0" />
+      <point x="289.95990695128626" y="1321.0" />
+      <point x="42.198275862068954" y="1321.0" />
+      <point x="-39.75" y="37.0" />
+    </edge>
+    <edge source="practic_3.controller.UserControlImpl" target="practic_3.controller.UserController">
+      <point x="0.0" y="-70.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="practic_3.controller.AdminControlImpl" target="practic_3.controller.AdminController">
+      <point x="39.75" y="-37.0" />
+      <point x="121.69827586206895" y="1123.0" />
+      <point x="124.0" y="1123.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="practic_3.controller.UserControlImpl" target="practic_3.model.Cinema">
+      <point x="72.0" y="-70.0" />
+      <point x="437.57327586206895" y="928.0" />
+      <point x="554.073275862069" y="928.0" />
+      <point x="-69.0" y="104.0" />
+    </edge>
+    <edge source="practic_3.controller.UserControlImpl" target="practic_3.model.User">
+      <point x="-72.0" y="-70.0" />
+      <point x="293.57327586206895" y="928.0" />
+      <point x="255.57327586206895" y="928.0" />
+      <point x="255.57327586206895" y="675.0" />
+      <point x="278.1543513957307" y="675.0" />
+      <point x="-52.5" y="71.0" />
+    </edge>
+    <edge source="practic_3.model.Cinema" target="practic_3.model.Hall">
+      <point x="39.428571428571445" y="-104.0" />
+      <point x="662.5018472906404" y="665.0" />
+      <point x="698.6543513957307" y="665.0" />
+      <point x="26.5" y="25.5" />
+    </edge>
+    <edge source="practic_3.view.MenuView" target="practic_3.controller.MenuControlImpl">
+      <point x="-75.5" y="-70.0" />
+      <point x="378.9043513957307" y="1572.0" />
+      <point x="361.9043513957307" y="1572.0" />
+      <point x="-92.5" y="103.0" />
+    </edge>
+    <edge source="practic_3.controller.MenuControlImpl" target="practic_3.model.Cinema">
+      <point x="82.22222222222217" y="-103.0" />
+      <point x="536.6265736179529" y="1301.0" />
+      <point x="692.073275862069" y="1301.0" />
+      <point x="69.0" y="104.0" />
+    </edge>
+    <edge source="practic_3.model.User" target="practic_3.model.Ticket">
+      <point x="52.5" y="-71.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="practic_3.model.Admin" target="practic_3.model.Human">
+      <point x="0.0" y="-37.0" />
+      <point x="-63.75" y="81.5" />
+    </edge>
+    <edge source="practic_3.model.Session" target="practic_3.model.Film">
+      <point x="0.0" y="-25.5" />
+      <point x="686.7678571428571" y="144.0" />
+      <point x="643.2678571428571" y="144.0" />
+      <point x="-52.0" y="59.5" />
+    </edge>
+    <edge source="practic_3.model.Cinema" target="practic_3.model.Film">
+      <point x="118.28571428571433" y="-104.0" />
+      <point x="741.3589901477833" y="675.0" />
+      <point x="758.9043513957307" y="675.0" />
+      <point x="758.9043513957307" y="144.0" />
+      <point x="747.2678571428571" y="144.0" />
+      <point x="52.0" y="59.5" />
+    </edge>
+    <edge source="practic_3.model.Cinema" target="practic_3.model.Session">
+      <point x="78.85714285714289" y="-104.0" />
+      <point x="701.9304187192118" y="675.0" />
+      <point x="735.6543513957307" y="675.0" />
+      <point x="735.6543513957307" y="245.0" />
+      <point x="711.7678571428571" y="245.0" />
+      <point x="25.0" y="25.5" />
+    </edge>
+    <edge source="practic_3.model.Admin" target="practic_3.model.Cinema">
+      <point x="52.0" y="37.0" />
+      <point x="148.1543513957307" y="655.0" />
+      <point x="544.2161330049262" y="655.0" />
+      <point x="-78.85714285714278" y="-104.0" />
+    </edge>
+    <edge source="practic_3.model.Cinema" target="practic_3.model.User">
+      <point x="-39.428571428571445" y="-104.0" />
+      <point x="583.6447044334975" y="645.0" />
+      <point x="383.1543513957307" y="645.0" />
+      <point x="52.5" y="71.0" />
+    </edge>
+    <edge source="practic_3.view.UserView" target="practic_3.controller.UserControlImpl">
+      <point x="-66.25" y="-59.0" />
+      <point x="251.0" y="1123.0" />
+      <point x="338.57327586206895" y="1123.0" />
+      <point x="-27.0" y="70.0" />
+    </edge>
+    <edge source="practic_3.AppCinema" target="practic_3.view.MenuView">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="70.0" />
+    </edge>
+    <edge source="practic_3.model.Ticket" target="practic_3.model.Session">
+      <point x="0.0" y="-25.5" />
+      <point x="383.1543513957307" y="245.0" />
+      <point x="661.7678571428571" y="245.0" />
+      <point x="-25.0" y="25.5" />
+    </edge>
+    <edge source="practic_3.model.User" target="practic_3.model.Human">
+      <point x="-52.5" y="-71.0" />
+      <point x="278.1543513957307" y="458.0" />
+      <point x="223.6543513957307" y="458.0" />
+      <point x="63.75" y="81.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.4892357373519914" x="452.5" y="919.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

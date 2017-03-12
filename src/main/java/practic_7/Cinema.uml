@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="1103.0">practic_7.helper.PropertyHolder</node>
+    <node x="647.25" y="916.0">practic_7.dao.DaoFactory</node>
+    <node x="54.0" y="714.5">practic_7.web.App</node>
+    <node x="1048.0" y="314.0">practic_7.service.api.Service</node>
+    <node x="1114.5208333333335" y="614.0">practic_7.service.impl.MovieServiceImpl</node>
+    <node x="0.0" y="280.5">practic_7.dto.MovieDTO</node>
+    <node x="168.77083333333337" y="34.0">practic_7.model.Entity</node>
+    <node x="1266.0" y="302.5">practic_7.mapper.BeanMapper</node>
+    <node x="544.25" y="0.0">practic_7.datasource.DataSource</node>
+    <node x="639.0" y="214.0">practic_7.dao.impl.CrudDAO</node>
+    <node x="281.0" y="280.5">practic_7.model.Movie</node>
+    <node x="584.7213541666667" y="636.5">practic_7.dao.impl.MovieDaoImpl</node>
+    <node x="1440.0" y="12.0">practic_7.dao.api.Dao</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="practic_7.model.Movie" target="practic_7.model.Entity">
+      <point x="0.0" y="-103.5" />
+      <point x="450.0" y="189.0" />
+      <point x="330.77083333333337" y="189.0" />
+      <point x="54.0" y="48.0" />
+    </edge>
+    <edge source="practic_7.dao.DaoFactory" target="practic_7.dao.impl.MovieDaoImpl">
+      <point x="0.0" y="-71.0" />
+      <point x="767.25" y="891.0" />
+      <point x="717.2213541666667" y="891.0" />
+      <point x="0.0" y="103.5" />
+    </edge>
+    <edge source="practic_7.service.impl.MovieServiceImpl" target="practic_7.model.Movie">
+      <point x="-137.25" y="-126.0" />
+      <point x="1160.2708333333335" y="584.0" />
+      <point x="562.6666666666667" y="584.0" />
+      <point x="112.66666666666674" y="103.5" />
+    </edge>
+    <edge source="practic_7.service.impl.MovieServiceImpl" target="practic_7.mapper.BeanMapper">
+      <point x="45.75" y="-126.0" />
+      <point x="1343.2708333333335" y="594.0" />
+      <point x="1411.0" y="594.0" />
+      <point x="0.0" y="81.5" />
+    </edge>
+    <edge source="practic_7.dao.DaoFactory" target="practic_7.dao.api.Dao">
+      <point x="80.0" y="-71.0" />
+      <point x="847.25" y="891.0" />
+      <point x="1577.5" y="891.0" />
+      <point x="1577.5" y="189.0" />
+      <point x="1605.0" y="189.0" />
+      <point x="66.0" y="70.0" />
+    </edge>
+    <edge source="practic_7.web.App" target="practic_7.dto.MovieDTO">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="103.5" />
+    </edge>
+    <edge source="practic_7.dto.MovieDTO" target="practic_7.model.Entity">
+      <point x="0.0" y="-103.5" />
+      <point x="130.5" y="189.0" />
+      <point x="222.77083333333337" y="189.0" />
+      <point x="-54.0" y="48.0" />
+    </edge>
+    <edge source="practic_7.dao.impl.MovieDaoImpl" target="practic_7.model.Movie">
+      <point x="-66.25" y="-103.5" />
+      <point x="650.9713541666667" y="594.0" />
+      <point x="450.0" y="594.0" />
+      <point x="0.0" y="103.5" />
+    </edge>
+    <edge source="practic_7.dao.DaoFactory" target="practic_7.model.Movie">
+      <point x="-80.0" y="-71.0" />
+      <point x="687.25" y="891.0" />
+      <point x="337.33333333333337" y="891.0" />
+      <point x="-112.66666666666663" y="103.5" />
+    </edge>
+    <edge source="practic_7.service.impl.MovieServiceImpl" target="practic_7.dao.api.Dao">
+      <point x="137.25" y="-126.0" />
+      <point x="1434.7708333333335" y="594.0" />
+      <point x="1566.5" y="594.0" />
+      <point x="1566.5" y="189.0" />
+      <point x="1539.0" y="189.0" />
+      <point x="0.0" y="70.0" />
+    </edge>
+    <edge source="practic_7.dao.impl.CrudDAO" target="practic_7.datasource.DataSource">
+      <point x="-97.25" y="-170.0" />
+      <point x="0.0" y="82.0" />
+    </edge>
+    <edge source="practic_7.service.impl.MovieServiceImpl" target="practic_7.service.api.Service">
+      <point x="-45.75" y="-126.0" />
+      <point x="1251.7708333333335" y="574.0" />
+      <point x="1147.0" y="574.0" />
+      <point x="0.0" y="70.0" />
+    </edge>
+    <edge source="practic_7.dao.impl.CrudDAO" target="practic_7.dao.api.Dao">
+      <point x="97.25" y="-170.0" />
+      <point x="930.75" y="189.0" />
+      <point x="1473.0" y="189.0" />
+      <point x="-66.0" y="70.0" />
+    </edge>
+    <edge source="practic_7.dao.impl.MovieDaoImpl" target="practic_7.dao.impl.CrudDAO">
+      <point x="66.25" y="-103.5" />
+      <point x="783.4713541666667" y="594.0" />
+      <point x="833.5" y="594.0" />
+      <point x="0.0" y="170.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6718403547671841" x="819.0" y="666.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
